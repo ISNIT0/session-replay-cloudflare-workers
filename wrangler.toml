@@ -1,0 +1,11 @@
+name = "session-replay-worker-test"
+main = "src/index.ts"
+compatibility_date = "2023-04-17"
+
+kv_namespaces = [
+  { binding = "SESSION_CACHE_KV", id = "78bf1a79348540faae720afd2e861127", preview_id = "b529b2e9c56841d881d861e8059fb8f6"  }
+]
+
+r2_buckets  = [
+	{ binding = "SESSION_BUCKET_R2", bucket_name = "session-replay-test", preview_bucket_name =  "session-replay-test-preview" }
+]
